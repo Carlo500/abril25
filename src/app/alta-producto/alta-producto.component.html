@@ -1,0 +1,24 @@
+<p>alta-producto works!</p>
+<form>
+    <p>id</p>
+    <input type="number" [(ngModel)]="product_id" name="id">
+    <p>nombre</p>
+    <input type="text" [(ngModel)]="product_name" name="nombre">
+    <p>id del suplier</p>
+    <input type="number" [(ngModel)]="supplier_id" name="id suplier">
+    <p>id de categoria</p>
+    <input type="number" [(ngModel)]="category_id" name="id categoria">
+    <p>cantidad por unidad</p>
+    <input type="number" [(ngModel)]="quantity_per_unit" name="cant unidad">
+    <p>precio unidad</p>
+    <input type="number" [(ngModel)]="unit_price" name="precio unidad">
+    <p>unidades disponibles</p>
+    <input type="number" [(ngModel)]="units_in_stock" name="unidades disponibles">
+    <p>unidades en pedidos</p>
+    <input type="number" [(ngModel)]="units_on_order" name="unidades de pedido">
+    <p>nivel de pedidos</p>
+    <input type="number" [(ngModel)]="reorder_level" name="nivel de pedidos">
+    <p>descuentos</p>
+    <input type="number" [(ngModel)]="discount" name="descuentos">
+    <button (click)="anadirProducto()">Añadir producto</button>
+</form>
